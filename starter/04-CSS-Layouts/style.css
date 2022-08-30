@@ -289,3 +289,10 @@ nav {
 .clear {
   clear: both;
 }
+
+/* using the after pseudo-element we add a div like property in our container element */
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: block;
+}
