@@ -27,7 +27,7 @@ body {
   padding-left: 40px;
   padding-right: 40px; */
   padding: 20px 40px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   /* height: 80px; */
 }
 
@@ -37,7 +37,7 @@ nav {
 }
 
 article {
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
 
 .post-header {
@@ -351,7 +351,8 @@ footer {
   font-style: italic;
 }
 
-.row {
+/* FLEXBOX LAYOUT */
+/* .row {
   display: flex;
   align-items: flex-start;
   gap: 75px;
@@ -364,5 +365,29 @@ article {
 }
 
 aside {
-  flex: 0 0 300px; /*defines the width of the flex-box item*/
+  flex: 0 0 300px;
+} */
+
+/* CSS GRID LAYOUT */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  align-items: start;
+  column-gap: 75px;
+  row-gap: 60px;
+}
+
+.main-header {
+  grid-column: 1 / span 2;
+}
+
+article {
+}
+
+aside {
+}
+
+footer {
+  grid-column: 1 / -1;
+  grid-row: 3 / 4;
 }
