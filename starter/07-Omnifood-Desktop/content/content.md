@@ -77,13 +77,13 @@ Healthy, tasty and hassle-free meals are waiting for you. Start eating well toda
 
 Prices include all applicable taxes. Users can cancel at any time.
 
-Starter: $399 per month
+Starter: \$399 per month
 
 - 1 meal per day
 - Order times are between 11am and 9pm
 - Delivery is free
 
-Complete: $649 per month
+Complete: \$649 per month
 
 - 2 meal2 per day
 - Order 24/7
@@ -126,3 +126,17 @@ Careers
 Recipe directory
 Help center
 Privacy & terms
+
+######
+
+## Sections
+
+- Logo + Navigation
+- Hero
+- Featured In
+- How it works
+- Meals (and list of Diets)
+- Testimonials + Gallery
+- Pricing + Features
+- CTA
+- Footer
