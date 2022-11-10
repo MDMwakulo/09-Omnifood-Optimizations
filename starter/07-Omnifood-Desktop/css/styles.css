@@ -317,6 +317,9 @@ header {
 /**************************************/
 .section-testimonials {
   background-color: #fdf2e9;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
 }
 
 .testimonial-container {
@@ -344,11 +347,11 @@ header {
 
 .testimonial-name {
   font-size: 1.6rem;
-  color: #777;
+  color: #6f6f6f;
 }
 
 .gallery {
-  align-self: start; /*Changes from Durell*/
+  /* align-self: start; Changes from Durell */
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -356,7 +359,16 @@ header {
   padding: 1.6rem;
 }
 
+.gallery-item {
+  overflow: hidden;
+}
+
 .gallery-item img {
   display: block;
   width: 100%;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
 }
