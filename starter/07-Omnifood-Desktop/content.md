@@ -67,7 +67,7 @@ Meal 2: Avocado Salad
 - Average rating: 4.8
 - Number reviews: 441
 
-### We offer a free sample meal
+### sample mealWe offer a free
 
 [Create simple form for users to sign up]
 
